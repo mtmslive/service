@@ -1,0 +1,26 @@
+{
+    "name": "mtmslive/service",
+    "description": "Basic Service Provider for MTMS application installing",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MTMS",
+            "email": "support@mtms.live"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mtms\\Service\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mtms\\Service\\MtmsServiceProvider"
+            ]
+        }
+    }
+}
